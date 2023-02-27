@@ -1,1 +1,120 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 0 px;
+  padding: 0 px;
+}
+body {
+ background-color: #709dff; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: "courier";
+}
+h3 {
+  color: black;
+  text-align: center;
+  background-color: white;
+  font-family: "courier";
+}
+p{
+  text-align: center;
+  color: black;
+  font-family: "courier";
+  margin-right: 40px;
+  margin-left: 40px;
+}
+  h2{
+    color: black;
+  text-align: center;
+  font-family: "courier";
+  }
+/* STYLE IMAGES */
+img {
+  max-height: 300px;
+  border: 3px solid black;
+}
+
+.center {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.center8 {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 5%;
+}
+.center1 {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.center2 {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.center4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+/* STYLE NAV BAR */
+ul{
+  list-style-type: none;
+  background-color: white;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+  font-family: "courier";
+  font-size: 1.2em;
+}
+
+li{
+  display: inline;
+
+}
+
+
+li a{
+  text-decoration: none;
+  color: black;
+  padding: 1 em; 
+}
+
+li a:hover{
+  background-color: #464444;
+}
+
+/* test */
+.test{
+  color: black;
+  text-align: center;
+  font-family: "courier";
+  list-style-type: none;
+  background-color: white;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+  font-family: "courier";
+  font-size: 1.2em;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
