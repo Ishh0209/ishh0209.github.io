@@ -42,13 +42,4 @@ ul li a{
 	text-decoration: none;
 }
 
-#sign-in{
-	display: flex;
-	align-items: center;
-}
 
-button {
-	border-radius: 50%;
-	background-color: lightgray;
-	color: black;
-}
