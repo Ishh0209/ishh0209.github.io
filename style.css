@@ -1,3 +1,6 @@
+.footer{
+	background-color: blue;
+}
 * {
 	background-color: black;
 	font-family: "courier";
@@ -40,9 +43,7 @@
   	margin-right: auto;
   	width: 80%;
 }
-.footer{
-	background-color: blue;
-}
+
 ul li {
 	display: inline-block;
 }
