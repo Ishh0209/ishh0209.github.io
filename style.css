@@ -40,6 +40,9 @@
   	margin-right: auto;
   	width: 80%;
 }
+.footer{
+	background-color: #000099;
+}
 ul li {
 	display: inline-block;
 }
