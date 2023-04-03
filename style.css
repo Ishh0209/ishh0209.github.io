@@ -34,9 +34,11 @@
 	display: flex;
 	align-items: center;
 }
-.center4 {
+.center1 {
 	display: flex;
+	width: 100%;
 	align-items: center;
+	height: 50px;
 }
 ul li {
 	display: inline-block;
