@@ -1,5 +1,4 @@
-
-* {
+body{
 	background-color: black;
 	font-family: "courier";
 	margin: 0 px;
@@ -49,6 +48,10 @@ ul li a{
 }
 footer{
 	background-color: blue;
+	font-family: "courier";
+	margin: 0 px;
+  	padding: 0 px;
+	color: white;
 }
 	
 
