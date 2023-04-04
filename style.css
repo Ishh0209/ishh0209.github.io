@@ -5,9 +5,6 @@
 	margin: 0 px;
   	padding: 0 px;
 	color: white;
-	.footer{
-	background-color: blue;
-}
 }
 
 .nav-container {
@@ -38,12 +35,6 @@
 	display: flex;
 	align-items: center;
 }
-.center1 img {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 80%;
-}
 
 ul li {
 	display: inline-block;
@@ -53,5 +44,7 @@ ul li a{
 	padding: 10px 30px;
 	text-decoration: none;
 }
-
+.footer{
+	background-color: blue;
+}
 
