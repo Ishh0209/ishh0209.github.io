@@ -1,12 +1,13 @@
-.footer{
-	background-color: blue;
-}
+
 * {
 	background-color: black;
 	font-family: "courier";
 	margin: 0 px;
   	padding: 0 px;
 	color: white;
+	.footer{
+	background-color: blue;
+}
 }
 
 .nav-container {
