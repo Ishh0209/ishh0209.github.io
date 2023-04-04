@@ -66,14 +66,14 @@ footer{
   box-sizing: border-box;
 }
 
-body {
+package {
   background-color: #f1f1f1;
   padding: 20px;
   font-family: Arial;
 }
 
 /* Center website */
-.main {
+.main1 {
   max-width: 1000px;
   margin: auto;
 }
