@@ -61,7 +61,9 @@ footer{
 
 
 
-
+*{
+box-sizing: border-box;
+}
 
 
 body {
@@ -69,14 +71,12 @@ body {
   padding: 20px;
   font-family: Courier;
   color: white;
-box-sizing: border-box;
 }
 
 /* Center website */
 .travel {
   max-width: 1000px;
   margin: auto;
-box-sizing: border-box;
 }
 
 h1 {
@@ -86,21 +86,21 @@ h1 {
 
 .row {
   margin: 8px -16px;
-	box-sizing: border-box;
+
 }
 
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
   padding: 8px;
-	box-sizing: border-box;
+	
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
-	box-sizing: border-box;
+	
 }
 
 /* Clear floats after rows */ 
@@ -108,7 +108,7 @@ h1 {
   content: "";
   display: table;
   clear: both;
-	box-sizing: border-box;
+	
 }
 
 /* Content */
@@ -116,7 +116,7 @@ h1 {
   background-color: #0B0B45;
   padding: 10px;
   color: white;
-	box-sizing: border-box;
+	
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
