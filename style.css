@@ -44,13 +44,12 @@ ul li a{
 	color: white;
 }
 
-.footer{
-	background-color: blue;
+footer{
+	background-color: #0B0B45;
 	font-family: "courier";
-	margin: 0 px;
 	color: white;
 	background-color: #0B0B45;
-	padding-top: 10px;
+	padding: 10px;
 }
 
 .center2 {
