@@ -1,8 +1,6 @@
 body{
 	background-color: black;
 	font-family: "courier";
-	margin: 0 px;
-  	padding: 0 px;
 	color: white;
 }
 
@@ -63,3 +61,71 @@ footer{
   width: 30%;
 }
 
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: black;
+  padding: 20px;
+  font-family: Courier;
+  color: white;
+}
+
+/* Center website */
+.travel {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.contenttravel {
+  background-color: #0B0B45;
+  padding: 10px;
+  color: white;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
