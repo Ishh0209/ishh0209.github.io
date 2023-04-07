@@ -57,9 +57,14 @@ h1 {
 .logo-ref {
 	display: flex;
 	justify-content: space-between;
+	
 }
 
-
+.logo-ref img {
+	height: 50px;
+	width: 50px;
+	padding-left: 10px;
+}
 
 .listed-items {
 	display: flex;
