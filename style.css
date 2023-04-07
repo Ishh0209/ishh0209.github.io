@@ -12,10 +12,9 @@ body{
 }
 
 footer{
-	background-color: #0B0B45;
 	font-family: "courier";
 	color: white;
-	background-color: #0B0B45;
+	background-color: #5CB6F9;
 	padding: 10px;
 }
 
@@ -26,6 +25,16 @@ h1 {
 	color: #5CB6F9;
 	text-align: center;
   word-break: break-all;
+}
+
+h2{
+	text-align: center;
+	word-break: break-all;
+}
+
+h4{
+	text-align: center;
+	word-break: break-all;
 }
 
 .home {
