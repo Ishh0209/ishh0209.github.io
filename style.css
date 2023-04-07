@@ -45,6 +45,11 @@ h4{
   padding-left: 30px;
 }
 
+.travelText {
+  text-align: justify;
+  padding-right: 30px;
+  padding-left: 30px;
+}
 
 .center2 {
   display: block;
