@@ -54,6 +54,7 @@ h4{
 .mission{
 text-align: center;
 }
+
 .center2 {
   display: block;
   margin-left: auto;
@@ -61,6 +62,12 @@ text-align: center;
   width: 30%;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
 
 
 
