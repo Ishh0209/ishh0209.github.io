@@ -28,7 +28,7 @@ h1 {
   word-break: break-all;
 }
 
-p {
+.home {
   text-indent: 50px;
   text-align: justify;
   letter-spacing: 3px;
