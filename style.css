@@ -1,9 +1,51 @@
+/* Applies to everything */
+*{
+box-sizing: border-box;
+}
+
+
+/* Different Section Styling */
 body{
 	background-color: black;
 	font-family: "courier";
 	color: white;
 }
 
+footer{
+	background-color: #0B0B45;
+	font-family: "courier";
+	color: white;
+	background-color: #0B0B45;
+	padding: 10px;
+}
+
+
+/* Text and Images Styling */
+h1 {
+  font-size: 50px;
+	color: #5CB6F9;
+	text-align: center;
+  word-break: break-all;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+
+
+/* Nav Bar Styling */
 .nav-container {
 	display: flex;
 	justify-content: space-between;
@@ -40,42 +82,14 @@ ul li a{
 	color: white;
 }
 
-footer{
-	background-color: #0B0B45;
-	font-family: "courier";
-	color: white;
-	background-color: #0B0B45;
-	padding: 10px;
-}
-
-.center2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
 
 
-
-*{
-box-sizing: border-box;
-}
-
-
-
-
-/* Center website */
+/* Travel Info Styling */
 .travel {
   max-width: 1000px;
   margin: auto;
 }
 
-h1 {
-  font-size: 50px;
-	color: #5CB6F9;
-	text-align: center;
-  word-break: break-all;
-}
 
 .row {
   margin: 8px -16px;
